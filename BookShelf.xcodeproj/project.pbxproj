@@ -7,21 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7FEF43E11E43CB1718D91A07 /* Pods_BookShelf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F88F7461B1432272166B22D0 /* Pods_BookShelf.framework */; };
+		DB06FB3621C29D9D009AF956 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DBA2516C21BFDFF3008C63F3 /* Info.plist */; };
+		DB417BF121C01498006EDE1E /* Start.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBA2516421BFDFF0008C63F3 /* Start.storyboard */; };
+		DB4FF10821C00F7B00AB9061 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB4FF10721C00F6000AB9061 /* Main.storyboard */; };
+		DB4FF10B21C00F8600AB9061 /* Books.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB4FF10A21C00F8500AB9061 /* Books.storyboard */; };
+		DB4FF10D21C00F9000AB9061 /* MyBooks.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB4FF10F21C00F9000AB9061 /* MyBooks.storyboard */; };
+		DB4FF11021C00FAB00AB9061 /* ADD.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB4FF11221C00FAB00AB9061 /* ADD.storyboard */; };
+		DB4FF11321C00FB400AB9061 /* SMS.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB4FF11521C00FB400AB9061 /* SMS.storyboard */; };
+		DB4FF11621C00FBD00AB9061 /* Privacy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB4FF11821C00FBD00AB9061 /* Privacy.storyboard */; };
 		DBA2516121BFDFF0008C63F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA2516021BFDFF0008C63F3 /* AppDelegate.swift */; };
-		DBA2516321BFDFF0008C63F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA2516221BFDFF0008C63F3 /* ViewController.swift */; };
-		DBA2516621BFDFF0008C63F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBA2516421BFDFF0008C63F3 /* Main.storyboard */; };
 		DBA2516821BFDFF3008C63F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBA2516721BFDFF3008C63F3 /* Assets.xcassets */; };
 		DBA2516B21BFDFF3008C63F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBA2516921BFDFF3008C63F3 /* LaunchScreen.storyboard */; };
+		DBA2517721BFE1C3008C63F3 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA2517621BFE1C3008C63F3 /* SignInViewController.swift */; };
+		DBA2517921BFE1DF008C63F3 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA2517821BFE1DF008C63F3 /* SignUpViewController.swift */; };
+		DBA2517D21BFE4FF008C63F3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DBA2517C21BFE4FF008C63F3 /* GoogleService-Info.plist */; };
+		DBA2518621BFE789008C63F3 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA2518221BFE788008C63F3 /* AuthService.swift */; };
+		DBA2518721BFE789008C63F3 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA2518321BFE788008C63F3 /* Post.swift */; };
+		DBA2518821BFE789008C63F3 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA2518421BFE789008C63F3 /* Config.swift */; };
+		DBA2518921BFE789008C63F3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA2518521BFE789008C63F3 /* User.swift */; };
+		DBA2518C21BFED93008C63F3 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA2518B21BFED93008C63F3 /* HomeTableViewController.swift */; };
+		DBA2518E21BFEE10008C63F3 /* BooksDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA2518D21BFEE10008C63F3 /* BooksDetailViewController.swift */; };
+		DBA2519021BFEE53008C63F3 /* ChatLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA2518F21BFEE53008C63F3 /* ChatLogController.swift */; };
+		DBA2519421BFEEBD008C63F3 /* Extenssions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA2519221BFEEBC008C63F3 /* Extenssions.swift */; };
+		DBA2519521BFEEBD008C63F3 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA2519321BFEEBD008C63F3 /* Message.swift */; };
+		DBA2519721BFEF35008C63F3 /* NewMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA2519621BFEF35008C63F3 /* NewMessageController.swift */; };
+		DBA2519921BFEF7B008C63F3 /* MessagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA2519821BFEF7B008C63F3 /* MessagesController.swift */; };
+		DBA2519B21BFEFCB008C63F3 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA2519A21BFEFCB008C63F3 /* AddViewController.swift */; };
+		DBA2519D21BFF011008C63F3 /* PrivacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA2519C21BFF011008C63F3 /* PrivacyViewController.swift */; };
+		DBA2519F21BFF033008C63F3 /* MyBooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA2519E21BFF033008C63F3 /* MyBooksViewController.swift */; };
+		DBA251A121BFF062008C63F3 /* MyBooksDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA251A021BFF062008C63F3 /* MyBooksDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D8BF7EE36FB164411C201B9 /* Pods-BookShelf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookShelf.release.xcconfig"; path = "Pods/Target Support Files/Pods-BookShelf/Pods-BookShelf.release.xcconfig"; sourceTree = "<group>"; };
+		9E770A19DE737E8406A6B7D7 /* Pods-BookShelf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookShelf.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BookShelf/Pods-BookShelf.debug.xcconfig"; sourceTree = "<group>"; };
+		DB4FF10621C00F6000AB9061 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB4FF10921C00F8500AB9061 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Books.storyboard; sourceTree = "<group>"; };
+		DB4FF10E21C00F9000AB9061 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MyBooks.storyboard; sourceTree = "<group>"; };
+		DB4FF11121C00FAB00AB9061 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ADD.storyboard; sourceTree = "<group>"; };
+		DB4FF11421C00FB400AB9061 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SMS.storyboard; sourceTree = "<group>"; };
+		DB4FF11721C00FBD00AB9061 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Privacy.storyboard; sourceTree = "<group>"; };
 		DBA2515D21BFDFF0008C63F3 /* BookShelf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookShelf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBA2516021BFDFF0008C63F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DBA2516221BFDFF0008C63F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DBA2516521BFDFF0008C63F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBA2516521BFDFF0008C63F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Start.storyboard; sourceTree = "<group>"; };
 		DBA2516721BFDFF3008C63F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBA2516A21BFDFF3008C63F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBA2516C21BFDFF3008C63F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBA2517621BFE1C3008C63F3 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		DBA2517821BFE1DF008C63F3 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		DBA2517C21BFE4FF008C63F3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DBA2518221BFE788008C63F3 /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		DBA2518321BFE788008C63F3 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		DBA2518421BFE789008C63F3 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		DBA2518521BFE789008C63F3 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DBA2518B21BFED93008C63F3 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		DBA2518D21BFEE10008C63F3 /* BooksDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksDetailViewController.swift; sourceTree = "<group>"; };
+		DBA2518F21BFEE53008C63F3 /* ChatLogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatLogController.swift; sourceTree = "<group>"; };
+		DBA2519221BFEEBC008C63F3 /* Extenssions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extenssions.swift; sourceTree = "<group>"; };
+		DBA2519321BFEEBD008C63F3 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		DBA2519621BFEF35008C63F3 /* NewMessageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMessageController.swift; sourceTree = "<group>"; };
+		DBA2519821BFEF7B008C63F3 /* MessagesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesController.swift; sourceTree = "<group>"; };
+		DBA2519A21BFEFCB008C63F3 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		DBA2519C21BFF011008C63F3 /* PrivacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyViewController.swift; sourceTree = "<group>"; };
+		DBA2519E21BFF033008C63F3 /* MyBooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBooksViewController.swift; sourceTree = "<group>"; };
+		DBA251A021BFF062008C63F3 /* MyBooksDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBooksDetailViewController.swift; sourceTree = "<group>"; };
+		F88F7461B1432272166B22D0 /* Pods_BookShelf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookShelf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +80,51 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FEF43E11E43CB1718D91A07 /* Pods_BookShelf.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84C01E907D011F8A0138797D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E770A19DE737E8406A6B7D7 /* Pods-BookShelf.debug.xcconfig */,
+				0D8BF7EE36FB164411C201B9 /* Pods-BookShelf.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BEFFBA629B1DF78A6389D60B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F88F7461B1432272166B22D0 /* Pods_BookShelf.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB4AF08421C01F18002AAD4A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				DBA2516421BFDFF0008C63F3 /* Start.storyboard */,
+				DB4FF10721C00F6000AB9061 /* Main.storyboard */,
+				DB4FF10A21C00F8500AB9061 /* Books.storyboard */,
+				DB4FF10F21C00F9000AB9061 /* MyBooks.storyboard */,
+				DB4FF11521C00FB400AB9061 /* SMS.storyboard */,
+				DB4FF11221C00FAB00AB9061 /* ADD.storyboard */,
+				DB4FF11821C00FBD00AB9061 /* Privacy.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		DBA2515421BFDFF0008C63F3 = {
 			isa = PBXGroup;
 			children = (
 				DBA2515F21BFDFF0008C63F3 /* BookShelf */,
 				DBA2515E21BFDFF0008C63F3 /* Products */,
+				84C01E907D011F8A0138797D /* Pods */,
+				BEFFBA629B1DF78A6389D60B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +139,55 @@
 		DBA2515F21BFDFF0008C63F3 /* BookShelf */ = {
 			isa = PBXGroup;
 			children = (
-				DBA2516021BFDFF0008C63F3 /* AppDelegate.swift */,
-				DBA2516221BFDFF0008C63F3 /* ViewController.swift */,
-				DBA2516421BFDFF0008C63F3 /* Main.storyboard */,
+				DBA2519121BFEEA3008C63F3 /* Helpers */,
+				DBA2518121BFE76C008C63F3 /* Models */,
+				DBA2517E21BFE6D6008C63F3 /* ViewController */,
 				DBA2516721BFDFF3008C63F3 /* Assets.xcassets */,
 				DBA2516921BFDFF3008C63F3 /* LaunchScreen.storyboard */,
+				DBA2516021BFDFF0008C63F3 /* AppDelegate.swift */,
 				DBA2516C21BFDFF3008C63F3 /* Info.plist */,
+				DBA2517C21BFE4FF008C63F3 /* GoogleService-Info.plist */,
 			);
 			path = BookShelf;
+			sourceTree = "<group>";
+		};
+		DBA2517E21BFE6D6008C63F3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DBA2517621BFE1C3008C63F3 /* SignInViewController.swift */,
+				DBA2517821BFE1DF008C63F3 /* SignUpViewController.swift */,
+				DBA2518B21BFED93008C63F3 /* HomeTableViewController.swift */,
+				DBA2518D21BFEE10008C63F3 /* BooksDetailViewController.swift */,
+				DBA2518F21BFEE53008C63F3 /* ChatLogController.swift */,
+				DBA2519621BFEF35008C63F3 /* NewMessageController.swift */,
+				DBA2519821BFEF7B008C63F3 /* MessagesController.swift */,
+				DBA2519A21BFEFCB008C63F3 /* AddViewController.swift */,
+				DBA2519E21BFF033008C63F3 /* MyBooksViewController.swift */,
+				DBA251A021BFF062008C63F3 /* MyBooksDetailViewController.swift */,
+				DBA2519C21BFF011008C63F3 /* PrivacyViewController.swift */,
+				DB4AF08421C01F18002AAD4A /* Storyboards */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		DBA2518121BFE76C008C63F3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DBA2518221BFE788008C63F3 /* AuthService.swift */,
+				DBA2518421BFE789008C63F3 /* Config.swift */,
+				DBA2518321BFE788008C63F3 /* Post.swift */,
+				DBA2518521BFE789008C63F3 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DBA2519121BFEEA3008C63F3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DBA2519221BFEEBC008C63F3 /* Extenssions.swift */,
+				DBA2519321BFEEBD008C63F3 /* Message.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +197,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DBA2516F21BFDFF3008C63F3 /* Build configuration list for PBXNativeTarget "BookShelf" */;
 			buildPhases = (
+				1E3BCE4ADD1BD8B977559E6A /* [CP] Check Pods Manifest.lock */,
 				DBA2515921BFDFF0008C63F3 /* Sources */,
 				DBA2515A21BFDFF0008C63F3 /* Frameworks */,
 				DBA2515B21BFDFF0008C63F3 /* Resources */,
+				6E41566FE456BA24715EA113 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,33 +250,165 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB4FF11321C00FB400AB9061 /* SMS.storyboard in Resources */,
+				DB4FF10B21C00F8600AB9061 /* Books.storyboard in Resources */,
+				DB4FF11021C00FAB00AB9061 /* ADD.storyboard in Resources */,
 				DBA2516B21BFDFF3008C63F3 /* LaunchScreen.storyboard in Resources */,
+				DB4FF10821C00F7B00AB9061 /* Main.storyboard in Resources */,
+				DB4FF11621C00FBD00AB9061 /* Privacy.storyboard in Resources */,
+				DBA2517D21BFE4FF008C63F3 /* GoogleService-Info.plist in Resources */,
+				DB417BF121C01498006EDE1E /* Start.storyboard in Resources */,
+				DB06FB3621C29D9D009AF956 /* Info.plist in Resources */,
 				DBA2516821BFDFF3008C63F3 /* Assets.xcassets in Resources */,
-				DBA2516621BFDFF0008C63F3 /* Main.storyboard in Resources */,
+				DB4FF10D21C00F9000AB9061 /* MyBooks.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E3BCE4ADD1BD8B977559E6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BookShelf-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E41566FE456BA24715EA113 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BookShelf/Pods-BookShelf-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BookShelf/Pods-BookShelf-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DBA2515921BFDFF0008C63F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBA2516321BFDFF0008C63F3 /* ViewController.swift in Sources */,
+				DBA2519021BFEE53008C63F3 /* ChatLogController.swift in Sources */,
+				DBA2518C21BFED93008C63F3 /* HomeTableViewController.swift in Sources */,
 				DBA2516121BFDFF0008C63F3 /* AppDelegate.swift in Sources */,
+				DBA2519D21BFF011008C63F3 /* PrivacyViewController.swift in Sources */,
+				DBA2519921BFEF7B008C63F3 /* MessagesController.swift in Sources */,
+				DBA2519F21BFF033008C63F3 /* MyBooksViewController.swift in Sources */,
+				DBA2517921BFE1DF008C63F3 /* SignUpViewController.swift in Sources */,
+				DBA2519B21BFEFCB008C63F3 /* AddViewController.swift in Sources */,
+				DBA2518E21BFEE10008C63F3 /* BooksDetailViewController.swift in Sources */,
+				DBA2517721BFE1C3008C63F3 /* SignInViewController.swift in Sources */,
+				DBA2518621BFE789008C63F3 /* AuthService.swift in Sources */,
+				DBA2518721BFE789008C63F3 /* Post.swift in Sources */,
+				DBA2518821BFE789008C63F3 /* Config.swift in Sources */,
+				DBA2519521BFEEBD008C63F3 /* Message.swift in Sources */,
+				DBA2519421BFEEBD008C63F3 /* Extenssions.swift in Sources */,
+				DBA2518921BFE789008C63F3 /* User.swift in Sources */,
+				DBA251A121BFF062008C63F3 /* MyBooksDetailViewController.swift in Sources */,
+				DBA2519721BFEF35008C63F3 /* NewMessageController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DBA2516421BFDFF0008C63F3 /* Main.storyboard */ = {
+		DB4FF10721C00F6000AB9061 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB4FF10621C00F6000AB9061 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		DB4FF10A21C00F8500AB9061 /* Books.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB4FF10921C00F8500AB9061 /* Base */,
+			);
+			name = Books.storyboard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		DB4FF10F21C00F9000AB9061 /* MyBooks.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB4FF10E21C00F9000AB9061 /* Base */,
+			);
+			name = MyBooks.storyboard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		DB4FF11221C00FAB00AB9061 /* ADD.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB4FF11121C00FAB00AB9061 /* Base */,
+			);
+			name = ADD.storyboard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		DB4FF11521C00FB400AB9061 /* SMS.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB4FF11421C00FB400AB9061 /* Base */,
+			);
+			name = SMS.storyboard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		DB4FF11821C00FBD00AB9061 /* Privacy.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB4FF11721C00FBD00AB9061 /* Base */,
+			);
+			name = Privacy.storyboard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		DBA2516421BFDFF0008C63F3 /* Start.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				DBA2516521BFDFF0008C63F3 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Start.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		DBA2516921BFDFF3008C63F3 /* LaunchScreen.storyboard */ = {
@@ -280,6 +540,7 @@
 		};
 		DBA2517021BFDFF3008C63F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E770A19DE737E8406A6B7D7 /* Pods-BookShelf.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -292,12 +553,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.bilal.fakhto.BookShelf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		DBA2517121BFDFF3008C63F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D8BF7EE36FB164411C201B9 /* Pods-BookShelf.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -310,7 +572,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.bilal.fakhto.BookShelf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

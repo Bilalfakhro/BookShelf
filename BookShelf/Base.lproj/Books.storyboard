@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cRr-En-X39">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Books to buy-->
+        <scene sceneID="sgP-zP-emV">
+            <objects>
+                <viewController storyboardIdentifier="HomeTableViewController" id="KKK-1d-qct" customClass="HomeTableViewController" customModule="BookShelf" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" title="Books to buy" id="Evp-3B-S8O"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="reb-uh-R49" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2654" y="-1363"/>
+        </scene>
+        <!--Books Detail View Controller-->
+        <scene sceneID="dx5-Hf-wGm">
+            <objects>
+                <viewController storyboardIdentifier="BooksDetailViewController" id="Sct-xI-htC" customClass="BooksDetailViewController" customModule="BookShelf" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5uD-sp-vm7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hiB-aL-mtJ">
+                                <rect key="frame" x="75" y="95" width="225" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="vW9-hE-KMu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fq1-q7-bIn">
+                                <rect key="frame" x="43.5" y="312" width="288" height="305"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder-photo" translatesAutoresizingMaskIntoConstraints="NO" id="eFZ-QZ-hkj">
+                                <rect key="frame" x="87" y="169" width="201" height="113"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="eFZ-QZ-hkj" secondAttribute="height" multiplier="16:9" id="pXd-rO-wZH"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="hiB-aL-mtJ" firstAttribute="leading" secondItem="IG0-yn-c5t" secondAttribute="leading" constant="75" id="JtR-eJ-r5c"/>
+                            <constraint firstItem="Fq1-q7-bIn" firstAttribute="top" secondItem="eFZ-QZ-hkj" secondAttribute="bottom" constant="30" id="NSw-g0-DuJ"/>
+                            <constraint firstItem="IG0-yn-c5t" firstAttribute="trailing" secondItem="eFZ-QZ-hkj" secondAttribute="trailing" constant="87" id="RqI-yI-XKA"/>
+                            <constraint firstItem="hiB-aL-mtJ" firstAttribute="top" secondItem="IG0-yn-c5t" secondAttribute="top" constant="75" id="VfK-JW-uqy"/>
+                            <constraint firstItem="eFZ-QZ-hkj" firstAttribute="top" secondItem="hiB-aL-mtJ" secondAttribute="bottom" constant="30" id="dxF-WR-07i"/>
+                            <constraint firstItem="IG0-yn-c5t" firstAttribute="bottom" secondItem="Fq1-q7-bIn" secondAttribute="bottom" constant="50" id="fmm-be-XYu"/>
+                            <constraint firstItem="hiB-aL-mtJ" firstAttribute="centerX" secondItem="5uD-sp-vm7" secondAttribute="centerX" id="nJh-Mk-15q"/>
+                            <constraint firstItem="Fq1-q7-bIn" firstAttribute="leading" secondItem="IG0-yn-c5t" secondAttribute="leading" constant="43.5" id="nJt-1o-UYJ"/>
+                            <constraint firstItem="eFZ-QZ-hkj" firstAttribute="leading" secondItem="IG0-yn-c5t" secondAttribute="leading" constant="87" id="nxq-SO-E99"/>
+                            <constraint firstItem="IG0-yn-c5t" firstAttribute="trailing" secondItem="Fq1-q7-bIn" secondAttribute="trailing" constant="43.5" id="oBM-1X-iDB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="IG0-yn-c5t"/>
+                    </view>
+                    <connections>
+                        <outlet property="bookImageView" destination="eFZ-QZ-hkj" id="gRz-5M-dYC"/>
+                        <outlet property="booksTextfield" destination="Fq1-q7-bIn" id="xxj-7C-cAp"/>
+                        <outlet property="booksTitleLabel" destination="hiB-aL-mtJ" id="Q31-FW-8aV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a3Y-6l-cDK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3380" y="-1363"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="HnF-8o-cnM">
+            <objects>
+                <navigationController storyboardIdentifier="UINavigationController-cRr-En-X39" automaticallyAdjustsScrollViewInsets="NO" id="cRr-En-X39" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" image="home" id="sBh-ub-2Px"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fh8-d5-O4c">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="KKK-1d-qct" kind="relationship" relationship="rootViewController" id="pVY-xo-ZeX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rc6-G4-aOl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1892" y="-1363"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="home" width="30" height="30"/>
+        <image name="placeholder-photo" width="840" height="600"/>
+    </resources>
+</document>
